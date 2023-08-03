@@ -33,7 +33,7 @@ jobs:
       - name: Update submodule
         if: env.submodule_updated == 'true'
         run: |
-          git submodule update --remote
+          git submodule update --remote ${{ env.SUBMODULE_NAME }}
 
       - name: Create Pull Request
         if: env.submodule_updated == 'true'
