@@ -6,8 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  ACTIONS_STEP_DEBUG: true
-  SUBMODULE_NAME: "content"  # Replace with the actual path to your submodule
+  SUBMODULE_NAME: "content" 
   GITHUB_TOKEN: ${{ secrets.PAT_CREATE_PR }}
   PULL_REQUEST_TITLE: "Update submodule to latest commit on main"
   PULL_REQUEST_BODY: "This pull request updates the submodule \"context\" to the latest commit on its main branch."
