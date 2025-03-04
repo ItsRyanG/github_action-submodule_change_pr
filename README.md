@@ -1,6 +1,6 @@
 # Update Submodule and Create Pull Request
 
-This GitHub Action workflow checks for fresh commits to a specified submodule and creates a pull request if there are any updates. It's schduled to run everyday at midnight.
+This GitHub Action workflow checks for fresh commits to a specified submodule and creates a pull request if there are any updates. 
 
 ## Overview
 
@@ -29,8 +29,3 @@ The workflow can be configured using the following environment variables:
 2. **Configure the Environment Variables**: Update the `env` section in the YAML file with the appropriate values for your repository and submodule.
 3. **Run the Workflow**: Trigger the workflow manually from the "Actions" tab in your GitHub repository.
 
-## License
-
-Please refer to the repository's license to understand how you can use or distribute this code.
-
-[1]: https://github.com/peter-evans/create-pull-request
